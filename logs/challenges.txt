@@ -1,6 +1,7 @@
-Completed.....: 4
-Almost There..: 1
+Completed.....: 6
+Almost There..: 0
+Kind_of_So-So.: 2
 Incompleted...: 0
 Necas.........: 0
 
-Total.........: 5
+Total.........: 8

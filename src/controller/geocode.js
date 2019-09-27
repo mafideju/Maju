@@ -5,9 +5,7 @@ const geocode = (address, cb) => {
 
   Axios
     .get(mapUrl)
-    .then(res => {
-      cb(res)
-    })
+    .then(res => cb(res))
     .catch(err => console.log(err.message))
 }
 
