@@ -1,11 +1,11 @@
 const fs = require('fs');
 
-const log = () => {
+const logger = () => {
   const date = new Date().toLocaleDateString();
   const hour = new Date().toLocaleTimeString();
   return `Accessed at ${date}, ${hour} hours. \n`;
 }
 
-fs.appendFileSync('./logs/log101.txt', log());
+fs.appendFileSync('./logs/log101.txt', logger());
 
-module.exports = log;
+module.exports = logger;
