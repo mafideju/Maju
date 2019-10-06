@@ -4,13 +4,15 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js -e js,hbs"
   },
   "keywords": [],
   "author": "Marcio Mafideju Rodrigues",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "chalk": "^2.4.2",
     "express": "^4.17.1",
     "hbs": "^4.0.5"
   },
